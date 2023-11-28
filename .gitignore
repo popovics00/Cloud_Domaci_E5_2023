@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BankStatefulService/bin/Debug/net6.0/win7-x64
+/BookStatefulService/bin/Debug/net6.0/win7-x64
+/packages/Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.7.7/build
+/TransactionStatefulCoordinator/bin/Debug/net6.0/win7-x64
+/ValidateService/bin/Debug/net6.0/win7-x64
+/Web1/bin/Debug/net6.0/win7-x64
+/Application1/ApplicationPackageRoot
+/Application1/ApplicationParameters
+/Application1/pkg/Debug
+/Application1/StartupServiceParameters
+/Application1/PublishProfiles
+/Application1/obj/x64/Debug
+/BankStatefulService/obj
+/BookStatefulService/obj
+/Model/obj
