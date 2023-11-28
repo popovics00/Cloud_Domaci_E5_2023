@@ -1,0 +1,4 @@
+C:\Zadatak\Domaci2\Application1\obj\x64\Debug\Application1.sfproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\Domaci2[1]\Domaci2\Application1\obj\x64\Debug\Application1.sfproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\StefanCloud\Domaci2\Application1\obj\x64\Debug\Application1.sfproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\Cloud_Domaci_E5_2023\Application1\obj\x64\Debug\Application1.sfproj.CoreCompileInputs.cache

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartupServicesManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="BankStatefulService_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="BankStatefulService_PartitionCount" DefaultValue="1" />
+    <Parameter Name="BankStatefulService_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="BookStatefulService_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="BookStatefulService_PartitionCount" DefaultValue="1" />
+    <Parameter Name="BookStatefulService_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="TransactionStatefulCoordinator_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="TransactionStatefulCoordinator_PartitionCount" DefaultValue="1" />
+    <Parameter Name="TransactionStatefulCoordinator_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="ValidateService_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="Web1_InstanceCount" DefaultValue="-1" />
+  </Parameters>
+  <Services>
+    <!-- The section below creates instances of service types, when an instance of this 
+         application type is created. You can also create one or more instances of service type using the 
+         ServiceFabric PowerShell module.
+
+         The attribute ServiceTypeName below must match the name defined in the imported ServiceManifest.xml file. -->
+    <Service Name="BankStatefulService" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="BankStatefulServiceType" TargetReplicaSetSize="[BankStatefulService_TargetReplicaSetSize]" MinReplicaSetSize="[BankStatefulService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[BankStatefulService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+    <Service Name="BookStatefulService" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="BookStatefulServiceType" TargetReplicaSetSize="[BookStatefulService_TargetReplicaSetSize]" MinReplicaSetSize="[BookStatefulService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[BookStatefulService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+    <Service Name="TransactionStatefulCoordinator" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="TransactionStatefulCoordinatorType" TargetReplicaSetSize="[TransactionStatefulCoordinator_TargetReplicaSetSize]" MinReplicaSetSize="[TransactionStatefulCoordinator_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[TransactionStatefulCoordinator_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+    <Service Name="ValidateService" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="ValidateServiceType" InstanceCount="[ValidateService_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="Web1" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="Web1Type" InstanceCount="[Web1_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+  </Services>
+</StartupServicesManifest>

@@ -1,0 +1,83 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pocetna";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* Add your general styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .alert {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .alert-warning-div {
+            background-color: #ffd700;
+            border: 1px solid #e0a800;
+            color: #856404;
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+            input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                padding: 8px 15px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <!-- Your HTML content -->
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-warning alert-warning-div" role="alert">
+            @TempData["Message"].ToString()
+            @{
+                TempData.Remove("Message");
+            }
+        </div>
+    }
+
+    <form method="post">
+        <label>First Name</label>
+        <input type="text" name="FirstName" asp-for="RequestForm.FirstName" />
+        <br />
+        <label>Last Name</label>
+        <input type="text" name="LastName" asp-for="RequestForm.LastName" />
+        <br />
+        <label>Book ID</label>
+        <input type="number" name="BookId" asp-for="RequestForm.BookId" />
+        <br />
+        <label>Book Count</label>
+        <input type="number" name="BookCount" asp-for="RequestForm.BookCount" />
+        <br />
+        <label>Account Number</label>
+        <input type="number" name="AccountNumber" asp-for="RequestForm.AccountNumber" />
+        <br />
+
+        <input type="submit" value="SEND REQUEST" />
+    </form>
+
+    <label>@ViewBag.Result</label>
+</body>
+</html>
