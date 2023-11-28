@@ -36,9 +36,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BankStatefulService\BankStatefulService.csproj" />
-    <ProjectReference Include="..\BookStatefulService\BookStatefulService.csproj" />
-    <ProjectReference Include="..\TransactionStatefulCoordinator\TransactionStatefulCoordinator.csproj" />
+    <ProjectReference Include="..\BankStatefulService\Bank.StatefulService.csproj" />
+    <ProjectReference Include="..\BookStatefulService\Book.StatefulService.csproj" />
+    <ProjectReference Include="..\TransactionStatefulCoordinator\TransactionCoordinator.Stateful.csproj" />
     <ProjectReference Include="..\ValidateService\ValidateService.csproj" />
     <ProjectReference Include="..\Web1\Web1.csproj">
       <ServiceLaunchUrl>http://localhost:{ServicePort}/</ServiceLaunchUrl>

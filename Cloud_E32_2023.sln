@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Application1", "Application1\Application1.sfproj", "{CC2F1679-165C-4548-9F84-D94924AF8715}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceFabric", "Application1\ServiceFabric.sfproj", "{CC2F1679-165C-4548-9F84-D94924AF8715}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web1", "Web1\Web1.csproj", "{780BFB90-C9A4-4C84-9299-CE040B714030}"
 EndProject
@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateService", "ValidateService\ValidateService.csproj", "{836E9DBC-7B8D-4287-BEF6-1AB8069506ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionStatefulCoordinator", "TransactionStatefulCoordinator\TransactionStatefulCoordinator.csproj", "{1DE66801-9B97-4AAC-9E1D-C337F53C1CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionCoordinator.Stateful", "TransactionStatefulCoordinator\TransactionCoordinator.Stateful.csproj", "{1DE66801-9B97-4AAC-9E1D-C337F53C1CAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStatefulService", "BookStatefulService\BookStatefulService.csproj", "{26E20BBE-0FF5-420B-AD5C-33C202BFA066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Book.StatefulService", "BookStatefulService\Book.StatefulService.csproj", "{26E20BBE-0FF5-420B-AD5C-33C202BFA066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankStatefulService", "BankStatefulService\BankStatefulService.csproj", "{C1C8EDEE-ABEF-4AB4-BF85-DF645CE35D0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.StatefulService", "BankStatefulService\Bank.StatefulService.csproj", "{C1C8EDEE-ABEF-4AB4-BF85-DF645CE35D0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

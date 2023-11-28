@@ -1410,9 +1410,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\BookStatefulService.csproj",
-      "projectName": "BookStatefulService",
-      "projectPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\BookStatefulService.csproj",
+      "projectUniqueName": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\Book.StatefulService.csproj",
+      "projectName": "Book.StatefulService",
+      "projectPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\Book.StatefulService.csproj",
       "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\obj\\",
       "projectStyle": "PackageReference",

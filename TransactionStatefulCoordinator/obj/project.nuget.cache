@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Ondw3gpFUDr62gpFDpqX/m5zETr6Eqw8XvHpuS/GBz4lilSX1x9zPw4Ka+HwOvaZFwEa/lQyrSdNnRGefGe4g==",
+  "dgSpecHash": "FIqm1+HN1mL2gtxXuoN8/FMY+p61BK5ZsuvL0NlCBIOsgfFpgJUppQssz6tCleFqbEyCT2oA2N7Ptwp0cRcVRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\TransactionStatefulCoordinator\\TransactionStatefulCoordinator.csproj",
+  "projectFilePath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\TransactionStatefulCoordinator\\TransactionCoordinator.Stateful.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.16\\microsoft.extensions.objectpool.6.0.16.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric\\9.1.1583\\microsoft.servicefabric.9.1.1583.nupkg.sha512",
