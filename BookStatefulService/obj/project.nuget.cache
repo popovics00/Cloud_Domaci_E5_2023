@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "ovxmXPL357B+q0fbsLnmeqly034KHhYsn8jAeBXKRjkh7B6DafTWeWgV+sHqgLBZ/1jBmW5iiijgVfCXnv8+Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Cloud_Domaci_E5_2023\\BookStatefulService\\BookStatefulService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.16\\microsoft.extensions.objectpool.6.0.16.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric\\9.1.1583\\microsoft.servicefabric.9.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.data\\6.1.1583\\microsoft.servicefabric.data.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\6.1.1583\\microsoft.servicefabric.data.extensions.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\6.1.1583\\microsoft.servicefabric.data.interfaces.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\6.1.1583\\microsoft.servicefabric.diagnostics.internal.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\6.1.1583\\microsoft.servicefabric.fabrictransport.internal.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.services\\6.1.1583\\microsoft.servicefabric.services.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\6.1.1583\\microsoft.servicefabric.services.remoting.6.1.1583.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.1\\system.security.cryptography.pkcs.6.0.1.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.security.cryptography.xml\\6.0.1\\system.security.cryptography.xml.6.0.1.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\system.servicemodel.primitives\\6.2.0\\system.servicemodel.primitives.6.2.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
